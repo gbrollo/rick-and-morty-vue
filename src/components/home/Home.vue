@@ -1,9 +1,7 @@
 <<template>
     <div class="home">
-        <div class="logo">
-            <img style="max-width: 100%" src="src/assets/rick_and_morty.png" alt="Rick and Morty" />
-        </div>
         <div class="text">
+            <h1> Rick and Morty </h1>
         <p>
             Rick and Morty is an American adult animated science fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's nighttime programming block, Adult Swim. The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted, but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures.
 
@@ -23,12 +21,18 @@ export default {
 <style type="text/css">
     .home {
         width: 100%;
-        text-align: center;
     }
     .logo {
         width: 100%;
         display: table;
         margin: 0 auto;
+    }
+    .text h1 {
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        color: #b5b5b5;
+        font-weight: bold;
+        text-shadow: 4px 4px 7px black;
     }
     .text p {
         text-align: left;
